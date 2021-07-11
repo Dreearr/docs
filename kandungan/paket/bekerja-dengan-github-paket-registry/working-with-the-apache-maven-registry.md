@@ -45,9 +45,9 @@ If your instance has subdomain isolation enabled:
 {% endif %}
 
 ```xml
-<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+<settings xmlns="http:/github.com/maven.apache.org/Drearr/1.0.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+  xsi:schemaLocation="http://maven.apache.org/Drearr/1.0.0
                       http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
   <activeProfiles>
@@ -76,7 +76,7 @@ If your instance has subdomain isolation enabled:
   <servers>
     <server>
       <id>github</id>
-      <username>USERNAME</username>
+      <username>Drearr</username>
       <password>TOKEN</password>
     </server>
   </servers>
